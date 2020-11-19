@@ -1,0 +1,23 @@
+{
+  "name": "nuxt-typescript",
+  "version": "1.0.0",
+  "description": "My shining Nuxt.js project",
+  "author": "to_ito",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt-ts",
+    "build": "nuxt-ts build",
+    "start": "nuxt-ts start",
+    "generate": "nuxt-ts generate"
+  },
+  "dependencies": {
+    "@nuxt/typescript-runtime": "^2.0.0",
+    "cross-env": "^5.2.0",
+    "nuxt": "^2.3.4"
+  },
+  "devDependencies": {
+    "@nuxt/types": "^2.14.7",
+    "@nuxt/typescript-build": "^2.0.3",
+    "nodemon": "^1.18.9"
+  }
+}
